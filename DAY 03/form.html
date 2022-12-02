@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM BURADA</title>
+</head>
+<body>
+    <!-- ilk formumu oluştruyorum  -->
+    <form action="">
+        <label for="">NAME</label>
+        <input type="text" name="name" value="myName" id="name" placeholder="isim giriniz" />
+        <label for="">PASSWORD</label>
+        <input type="password" placeholder="10 haneli şifre giriniz" />
+        <label for="">ID</label>
+        <input type="number" />
+        <label for="">ARAMA</label>
+        <input type="search" />
+        <label for="">URL</label>
+        <input type="url" />
+        <label for="">EMAIL</label>
+        <input type="email" />
+        <label for="KULLANILMAZ"></label>
+        <input type="text" disabled/>
+        <!-- farklı türler -->
+        <hr><br>
+        <label for="CHECKBOX"></label>
+        <input type="checkbox" name="" id="">
+        
+        <input type="radio" name="radio-secenek" id="evli" value="evli" />
+        <label for="evli">EVLI</label>
+
+        <input type="radio" name="radio-secenek" id="bekar" value="bekar" />
+        <label for="bekar">BEKAR</label>
+
+        <label for="TARİH SEÇ"></label>
+        <input type="date" name="" id="">
+
+        <!-- SELECT DENİYORUM -->
+        <label for="SAYILAR">SEÇENEKLER</label>    
+    <select name="SAYILAR" multiple size="4">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+
+    <!-- OPTGRUP DENİYORUM  -->
+    <label for="">OPTGRUP</label>
+    <select name="" id="">
+        <optgroup><label for="MEYVELER"></label>
+        <option value="ELMA">ELMA</option>
+        <option value="ARMUT">ARMUT</option>
+        </optgroup>
+
+        <optgroup><label for="SEBZELER"></label>
+        <option value="DOMATES">DOMATES</option>
+        <option value="SALATALIK">SALATALIK</option>
+        </optgroup>
+    </select>
+
+    <!-- TEXTAREA DENİYORUM -->
+    <label for="TEXTAREA"></label>
+    <textarea name="yorum" id="yorum" cols="10" rows="5" placeholder="talep ve şikayetinizi yazınız." required ></textarea>
+
+
+        <input type="radio" name="radio-secenek" id="evli" value="evli" />
+        <label for="evli">EVLI</label>
+        <input type="radio" name="radio-secenek" id="bekar" value="bekar" />
+        <label for="bekar">BEKAR</label>
+        <input type="radio" name="radio-secenek" id="N" value="N" />
+        <label for="N">Not</label>
+
+        <label for="DOSYA YÜKLE"></label>
+        <input type="file" name="" id="">
+
+
+
+
+        <input type="button" value="DUGME" />
+        <input type="submit" value="GONDER" />
+        <input type="reset" value="RESET" />
+        
+    </form>
+</body>
+</html>
