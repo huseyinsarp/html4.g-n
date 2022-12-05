@@ -1,0 +1,25 @@
+:root {
+    --gerrard: #ACE7DF;
+  }
+.transform{
+    width: 100;
+    height: 50;
+    background-color: var(--gerrard);
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    transition: transform 2s;
+}
+
+.x:hover {
+    transform: translateX(50px);
+}
+.y:hover {
+    transform: translateY(50px);
+  }
+  
+  .xy:hover {
+    transform: translate(50px, -50px);
+  }
